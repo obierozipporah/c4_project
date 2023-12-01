@@ -55,7 +55,7 @@ const SignInPage = () => {
       </div>
 
       <div className="right-section">
-      <img scr="" alt="your image"></img>
+      <img scr="./image/kook.JP" alt="your image"></img>
       </div>
     </div>
   );
