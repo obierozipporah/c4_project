@@ -50,12 +50,12 @@ const SignInPage = () => {
         <button className="login-button" type="submit">Login</button>
       </form>
 
-      <div className="signup-link">
+      <div className="signup-link"> 
         <p>Don't have an account yet? <a href="#">Sign Up</a></p>
       </div>
 
       <div className="right-section">
-        <img src="" alt="Your" />
+      <img scr="" alt="your image"></img>
       </div>
     </div>
   );
