@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 400%;
+  height: 10%;
+}
+
+.left-section,
+.center-section,
+.right-section {
+  width: 30%;
+}
+
+.center-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-section-top {
+  margin-bottom: 0px;
+}
+
+.login-section {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 1024px;
+  background-color: #FFFFFF;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  width: 999px;
+  height: 1024px;
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+
+.color-icon {
+  width: 20px;
+  height: 20px; 
+  margin-right: 0px; 
+}
+
+.color-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-section {
+  text-align: center;
+  align-items: flex-start;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+}
+
+.signin-section {
+  .sign-in-container {
+    width: 999px;
+    height: 1024px;
+    background-color: white;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-field {
+    width: 800px;
+    height: 10px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color: #EBE9E9;
+    gap: 10px;
+  }
+
+  .login-button {
+    width: 800px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #2ACFCF;
+    color: white;
+  }
+
+
+}
+
+.signup-section {
+
+  .sign-up-container {
+    width: 999px;
+    height: 1024px;
+    background-color: white;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-field {
+    width: 800px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #EBE9E9;
+    gap: 10px;
+  }
+
+  .login-button {
+    width: 800px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #2ACFCF;
+    color: white;
+  }
+
+}
+
+.password-section {
+.password-container {
+  width: 999px;
+  height: 1024px;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 800px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #EBE9E9;
+  gap: 10px;
+}
+
+.login-button {
+  width: 800px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #2ACFCF;
+  color: white;
+}
+
+}
