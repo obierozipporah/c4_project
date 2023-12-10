@@ -186,3 +186,98 @@ a {
 }
 
 }
+
+.shortly-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 300%;
+  height: 10%;
+  flex-direction: column;
+  background-color: white;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-image {
+  display: flex;
+  align-items: center;
+}
+
+.left-paragragh {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-image {
+  margin-left: auto;
+}
+
+.centered {
+  background-color: lightgray;
+  height: 800px;
+  width: 1020px;
+
+}
+
+.input-field {
+    width: 300px;
+    height: 10px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color: #EBE9E9;
+    gap: 10px;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.Brand-section {
+  background-color: white;
+  padding: 30px;
+  height: 300px;
+  width: 200px;
+  margin-left: 20px;
+
+}
+
+.detailed-section {
+  background-color: white;
+  padding: 30px;
+  height: 300px;
+  width: 400px;
+  margin-left: 20px;
+
+}
+
+.fully-section {
+  background-color: white;
+  padding: 30px;
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.image {
+  object-fit: cover;
+  background-repeat: inherit;
+  background-position: 100%;
+  background-attachment: fixed;
+}
+
+.shortly-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  -webkit-text-fill-color: white;
+
+}

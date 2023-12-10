@@ -3,6 +3,7 @@ import LoginPage from './Components/LoginPage.js';
 import SignInPage from './Components/SignInPage.js';
 import SignUpPage from './Components/SignUPPage.js';
 import Password from './Components/Password.js';
+import Shortly from './shortly.js';
 import './App.css';
 
 const App = () => {
@@ -33,9 +34,14 @@ const App = () => {
         <Password />
         </div>
       </div>
-    </div>
+
+      <div className="Hero-section">
+        <Shortly />
+      </div>
+      </div>
 
   );
 };
 
 export default App;
+
